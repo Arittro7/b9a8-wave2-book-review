@@ -42,18 +42,18 @@ const BookDetails = () => {
     <div className="max-w-5xl mx-auto">
       <div className="hero min-h-screen bg-base-50 border rounded gap-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 p-8 gap-10">
-          <div className="bg-[#1313130D] border rounded shadow-lg p-4">
+          <div className=" border rounded shadow-lg p-4">
             <img
-              src={book.image}
               className="rounded-lg w-[300px] h-[350px] lg:w-[325px] lg:h-[421px]"
+              src={book.image}
               alt=""
             />
           </div>
           <div>
-            <h2 className="text-4xl font-extrabold Playfair">
+            <h2 className="text-4xl font-extrabold ">
               {book.bookName}
             </h2>
-            <p className="work_sens text-xl text-[#131313CC]">
+            <p className=" text-xl">
               By: {book.authorName}
             </p>
             <div className="p-2 mb-6 mt-12">
@@ -76,7 +76,7 @@ const BookDetails = () => {
               </p>
             </h2>
             <div className="p-2 mb-6 mt-12">
-              <p className="border-t border-dashed border-[#13131326]"></p>
+              <p className="border-t border-dashed "></p>
             </div>
             <div className="font-semibold text-base p-2">
               <p>
