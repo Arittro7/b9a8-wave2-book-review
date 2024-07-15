@@ -99,7 +99,7 @@ const ListedBooks = () => {
             type="radio"
             name="my_tabs_2"
             role="tab"
-            className="tab text-xl text-red-400 work_sens"
+            className="tab text-xl text-red-400"
             aria-label="Read Books"
           />
           <div
@@ -112,14 +112,14 @@ const ListedBooks = () => {
                 className="grid grid-cols-1 mb-4 max-w-4xl mx-auto"
               >
                 <div className="card card-side bg-base-100  rounded-lg shadow-xl grid lg:grid-cols-4 gap-2 p-4">
-                  <div className="col-span-1 bg-purple-100 w-70 h-70 border rounded shadow-xl m-4 Playfair ">
+                  <div className="col-span-1 bg-purple-100 w-70 h-70 border rounded shadow-xl m-4">
                     <figure>
                       <img src={book.image} alt="book" />
                     </figure>
                   </div>
                   <div className="col-span-3">
                     <div className="mb-6">
-                      <h2 className="text-2xl card-title font-bold Playfair">
+                      <h2 className="text-2xl card-title font-bold ">
                         {book.bookName}
                       </h2>
                       <h2 className="text-base font-medium work_sens">
@@ -127,14 +127,14 @@ const ListedBooks = () => {
                       </h2>
                     </div>
                     <div className="flex gap-6">
-                      <h2 className="text-[#131313] text-base font-bold ">
+                      <h2 className="text-base font-bold ">
                         Tags
                       </h2>
                       <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
-                        <p className="text-[#23BE0A]  bg-[#23BE0A0D] border rounded-full w-24">
+                        <p className="border rounded-full w-24">
                           #{book.tags[0]}
                         </p>
-                        <p className="text-[#23BE0A] bg-[#23BE0A0D] border rounded-full w-28">
+                        <p className="border rounded-full w-28">
                           #{book.tags[1]}
                         </p>
                         <p className="flex items-center">
@@ -146,13 +146,13 @@ const ListedBooks = () => {
                       </div>
                     </div>
                     <div className="lg:flex items-center mt-4 mb-4 p-4 gap-4 text-base font-normal work_sens ">
-                      <h2 className="flex items-center gap-2 text-[#13131399] text-base font-normal ">
+                      <h2 className="flex items-center gap-2 text-base font-normal ">
                         <span>
                           <IoPeopleOutline></IoPeopleOutline>
                         </span>
                         Publisher :{book.publisher}
                       </h2>
-                      <h2 className="flex items-center gap-1 text-[#13131399]">
+                      <h2 className="flex items-center gap-1 ">
                         <span>
                           <IoDocumentOutline></IoDocumentOutline>
                         </span>
