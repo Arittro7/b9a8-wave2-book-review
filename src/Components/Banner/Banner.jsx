@@ -3,25 +3,19 @@ import bnrImg from '../../assets/banner.png'
 
 const Banner = () => {
   return (
-    <div className="max-w-5xl mx-auto mb-24">
-    <div className="hero min-h-screen bg-[#1313130D] border rounded Playfair">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={bnrImg} className="rounded-lg" />
-        <div>
-          <h1 className="text-5xl font-extrabold mb-12">
-            <p className="pb-6">Books to freshen up</p>
-            <p>your bookshelf</p>
-          </h1>
-
-          <Link to={'/listedbook'}>
-            <button className="btn bg-[#23BE0A] text-white">
-              View The List
-            </button>
-          </Link>
+    <div className='sero max-w-7xl my-5'>
+      <div className=" bg-gray-200 p-4 border rounded">
+          <div className="hero-content flex ">
+            <div className='w-2/3'>
+            <h2 className='text-3xl mb-8'>Books are the quietest and most <br />constant of friends</h2>
+            <Link to={'/listedbook'}>
+            <button className='bg-green-600 text-white text-2xl font-semibold py-2 px-3 rounded-xl'>View The List</button>
+            </Link>
+            </div>
+            <img src={bnrImg} alt="" />
+          </div>
         </div>
-      </div>
     </div>
-  </div>
   );
 };
 
