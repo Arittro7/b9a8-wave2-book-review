@@ -16,24 +16,24 @@ const BookDetails = () => {
     if (value === 'read') {
       SavestoredDataForR(idInt);
       if (visitedR) {
-        toast.success("You have Added to Read Books", {
+        toast.success("Successfully Added to Read Books", {
           position: "top-center",
         });
         setVisitedR(false);
       } else {
-        toast.warning("You have Already Added to Read Books");
+        toast.warning("Already Added to Read Books");
       }
     }
 
     if (value === 'wishlist') {
       SavestoredDataForW(idInt);
       if (visitedW) {
-        toast.success("You have Added to Wishlist Books", {
+        toast.success("Successfully Added to Wishlist", {
           position: "top-center",
         });
         setVisitedW(false);
       } else {
-        toast.warning("You have Already Added to Wishlist Books");
+        toast.warning("Already Added to Wishlist");
       }
     }
   };
@@ -46,7 +46,7 @@ const BookDetails = () => {
             <img
               src={book.image}
               className="rounded-lg w-[300px] h-[350px] lg:w-[325px] lg:h-[421px]"
-              alt={book.bookName}
+              alt=""
             />
           </div>
           <div>
@@ -57,21 +57,20 @@ const BookDetails = () => {
               By: {book.authorName}
             </p>
             <div className="p-2 mb-6 mt-12">
-              <p className="border-t border-dashed border-[#13131326]"></p>
-              <p className="work_sens">{book.category}</p>
-              <p className="border-t border-dashed border-[#13131326]"></p>
+              <p className="border-t border-dashed"></p>
+              <p className="border-t border-dashed"><span className="bg-green-400 py-1 px-2">{book.category}</span></p>
             </div>
-            <p className="work_sens">
+            <p>
               <span className="text-2xl font-bold">Review:</span> {book.review}
             </p>
-            <h2 className="work_sens flex gap-4 items-center mt-4">
+            <h2 className=" flex gap-4 items-center mt-4">
               <p>
                 <span className="text-2xl font-bold">Tag</span>
               </p>
-              <p className="flex gap-4 work_sens text-[#23BE0A]">
+              <p className="flex gap-2 text-black">
                 {book.tags.map((tag, index) => (
-                  <span key={index} className="border rounded-3xl bg-purple-200">
-                    #{tag}
+                  <span key={index} className="p-1 rounded-sm bg-orange-300">
+                    {tag}
                   </span>
                 ))}
               </p>
@@ -79,21 +78,21 @@ const BookDetails = () => {
             <div className="p-2 mb-6 mt-12">
               <p className="border-t border-dashed border-[#13131326]"></p>
             </div>
-            <div className="font-semibold text-base p-2 work_sens">
+            <div className="font-semibold text-base p-2">
               <p>
-                <span className="text-[#131313B2]">Number of Pages</span>:
+                <span>Number of Pages</span>:
                 <span className="ml-2">{book.totalPages}</span>
               </p>
               <p>
-                <span className="text-[#131313B2]">Publisher:</span>
+                <span>Publisher:</span>
                 <span className="ml-2">{book.publisher}</span>
               </p>
               <p>
-                <span className="text-[#131313B2]">Year of Publishing</span>:
+                <span>Year of Publishing</span>:
                 {book.yearOfPublishing}
               </p>
               <p>
-                <span className="text-[#131313B2]">Rating:</span> {book.rating}
+                <span>Rating:</span> {book.rating}
               </p>
               <div className="mt-4">
                 <button
@@ -104,7 +103,7 @@ const BookDetails = () => {
                 </button>
                 <button
                   onClick={() => handleReadbook('wishlist')}
-                  className="btn bg-purple-300 ml-2"
+                  className="btn bg-orange-300 ml-2"
                 >
                   Wishlist
                 </button>
