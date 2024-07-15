@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "bookName": "The Personal MBA",
+    "authorName": "Josh Kaufman",
+    "image": "https://i.ibb.co/d5LTrYk/5fab54e074ab51f697bbda0154779054.jpg",
+    "review": "The Personal MBA by Josh Kaufman is a must-read for anyone looking to gain a solid foundation in business principles without the hefty price tag of an MBA program. Kaufman distills complex business concepts into easily understandable and practical advice that can be applied immediately. The book covers a wide range of topics, including marketing, sales, finance, and strategy, making it an invaluable resource for entrepreneurs, managers, and aspiring business professionals.",
+    "totalPages": 400,
+    "rating": 4.6,
+    "category": "Business",
+    "tags": ["Business", "Self-Help", "Education"],
+    "publisher": "Portfolio",
+    "yearOfPublishing": 2010
+  },
+  { 
+    "id": 2,
+    "bookName": "The Lean Startup",
+    "authorName": "Eric Ries",
+    "image": "https://i.ibb.co/wJKsttg/Lean-Startup.png",
+    "review": "The Lean Startup by Eric Ries revolutionizes the way we think about starting and managing new ventures. Ries introduces the concept of validated learning, emphasizing the importance of testing hypotheses and gathering customer feedback to make informed decisions. This approach helps entrepreneurs avoid the pitfalls of traditional business planning by focusing on rapid experimentation and iterative product development.",
+    "totalPages": 336,
+    "rating": 4.5,
+    "category": "Business",
+    "tags": ["Entrepreneurship", "Startups", "Innovation"],
+    "publisher": "Crown Business",
+    "yearOfPublishing": 2011
+  },
+  {
+    "id": 3,
+    "bookName": "Atomic Habits",
+    "authorName": "James Clear",
+    "image": "https://i.ibb.co/BZ31Gp7/images.jpg",
+    "review": "Atomic Habits by James Clear is a transformative guide to building better habits and breaking bad ones. Clear's approach is based on the idea that small, incremental changes can lead to significant improvements over time. He provides actionable strategies for creating good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results. Clear's writing is clear and engaging, with plenty of practical examples and scientific insights to support his advice.",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Self-Help",
+    "tags": ["Self-Improvement", "Habits", "Psychology"],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  },
+  {
+    "id": 4,
     "bookName": "The Great Gatsby",
     "authorName": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co/SdXMJgT/The-Great-Gatsby-Cover-1925-Retouched.jpg",
@@ -14,7 +53,7 @@
   },
   
   {
-    "id": 2,
+    "id": 5,
     "bookName": "To Kill a Mockingbird",
     "authorName": "Harper Lee",
     "image": "https://i.ibb.co/6NCFBrB/9781784752637.jpg",
@@ -28,7 +67,7 @@
   },
 
   {
-    "id": 3,
+    "id": 6,
     "bookName": "1984",
     "authorName": "George Orwell",
     "image": "https://i.ibb.co/xsysNNf/download.jpg",
@@ -42,7 +81,7 @@
   },
   
   {
-    "id": 4,
+    "id": 7,
     "bookName": "Pride and Prejudice",
     "authorName": "Jane Austen",
     "image": "https://i.ibb.co/wJh6x6b/images.jpg",
@@ -56,7 +95,7 @@
   },
   
   {
-    "id": 5,
+    "id": 8,
     "bookName": "The Hobbit",
     "authorName": "J.R.R. Tolkien",
     "image": "https://i.ibb.co/CbQChkM/hobbit-cover.jpg",
@@ -70,7 +109,7 @@
   },
   
   {
-    "id": 6,
+    "id": 9,
     "bookName": "The Catcher in the Rye",
     "authorName": "J.D. Salinger",
     "image": "https://i.ibb.co/0yKqR3G/7108sd-EUEGL-AC-UF1000-1000-QL80.jpg",
