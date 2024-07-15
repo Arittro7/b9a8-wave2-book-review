@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "bookName": "The Great Gatsby",
     "authorName": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co/SdXMJgT/The-Great-Gatsby-Cover-1925-Retouched.jpg",
@@ -14,7 +14,7 @@
   },
   
   {
-    "id": "2",
+    "id": 2,
     "bookName": "To Kill a Mockingbird",
     "authorName": "Harper Lee",
     "image": "https://i.ibb.co/6NCFBrB/9781784752637.jpg",
@@ -28,7 +28,7 @@
   },
 
   {
-    "id": "3",
+    "id": 3,
     "bookName": "1984",
     "authorName": "George Orwell",
     "image": "https://i.ibb.co/xsysNNf/download.jpg",
@@ -42,7 +42,7 @@
   },
   
   {
-    "id": "4",
+    "id": 4,
     "bookName": "Pride and Prejudice",
     "authorName": "Jane Austen",
     "image": "https://i.ibb.co/wJh6x6b/images.jpg",
@@ -56,7 +56,7 @@
   },
   
   {
-    "id": "5",
+    "id": 5,
     "bookName": "The Hobbit",
     "authorName": "J.R.R. Tolkien",
     "image": "https://i.ibb.co/CbQChkM/hobbit-cover.jpg",
@@ -70,7 +70,7 @@
   },
   
   {
-    "id": "6",
+    "id": 6,
     "bookName": "The Catcher in the Rye",
     "authorName": "J.D. Salinger",
     "image": "https://i.ibb.co/0yKqR3G/7108sd-EUEGL-AC-UF1000-1000-QL80.jpg",
