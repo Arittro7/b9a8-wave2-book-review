@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "bookName": "The Great Gatsby",
+    "authorName": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/SdXMJgT/The-Great-Gatsby-Cover-1925-Retouched.jpg",
+    "review": "A classic novel set in the Jazz Age.",
+    "totalPages": 218,
+    "rating": 4.5,
+    "category": "Classic",
+    "tags": ["Classic", "Novel"],
+    "publisher": "Scribner",
+    "yearOfPublishing": 1925
+  },
+  
+  {
+    "id": "2",
+    "bookName": "To Kill a Mockingbird",
+    "authorName": "Harper Lee",
+    "image": "https://i.ibb.co/6NCFBrB/9781784752637.jpg",
+    "review": "A profound novel of moral growth and social justice.",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Classic",
+    "tags": ["Classic", "Novel"],
+    "publisher": "J.B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+
+  {
+    "id": "3",
+    "bookName": "1984",
+    "authorName": "George Orwell",
+    "image": "https://i.ibb.co/xsysNNf/download.jpg",
+    "review": "A dystopian novel that explores the dangers of totalitarianism.",
+    "totalPages": 328,
+    "rating": 4.6,
+    "category": "Dystopian",
+    "tags": ["Dystopian", "Novel"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  
+  {
+    "id": "4",
+    "bookName": "Pride and Prejudice",
+    "authorName": "Jane Austen",
+    "image": "https://i.ibb.co/wJh6x6b/images.jpg",
+    "review": "A timeless romance that explores social class and relationships.",
+    "totalPages": 279,
+    "rating": 4.7,
+    "category": "Classic",
+    "tags": ["Classic", "Romance"],
+    "publisher": "T. Egerton",
+    "yearOfPublishing": 1813
+  },
+  
+  {
+    "id": "5",
+    "bookName": "The Hobbit",
+    "authorName": "J.R.R. Tolkien",
+    "image": "https://i.ibb.co/CbQChkM/hobbit-cover.jpg",
+    "review": "A fantasy adventure that takes readers on an epic journey.",
+    "totalPages": 310,
+    "rating": 4.8,
+    "category": "Fantasy",
+    "tags": ["Fantasy", "Adventure"],
+    "publisher": "George Allen & Unwin",
+    "yearOfPublishing": 1937
+  },
+  
+  {
+    "id": "6",
+    "bookName": "The Catcher in the Rye",
+    "authorName": "J.D. Salinger",
+    "image": "https://i.ibb.co/0yKqR3G/7108sd-EUEGL-AC-UF1000-1000-QL80.jpg",
+    "review": "A novel that captures the teenage experience and angst.",
+    "totalPages": 214,
+    "rating": 4.3,
+    "category": "Classic",
+    "tags": ["Classic", "Novel"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  }
+  
+]
