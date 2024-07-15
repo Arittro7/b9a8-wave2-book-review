@@ -209,24 +209,24 @@ const ListedBooks = () => {
                       <h2 className="text-2xl card-title font-bold Playfair">
                         {book.bookName}
                       </h2>
-                      <h2 className="text-base font-medium work_sens">
+                      <h2 className="text-base font-medium ">
                         By : {book.authorName}
                       </h2>
                     </div>
                     <div className="flex gap-6">
-                      <h2 className="text-[#131313] text-base font-bold ">
+                      <h2 className=" text-base font-bold ">
                         Tags
                       </h2>
                       <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
-                        <p className="text-[#23BE0A]  bg-[#23BE0A0D] border rounded-full w-24">
+                        <p className="text-green-600 border rounded-full w-24">
                           #{book.tags[0]}
                         </p>
-                        <p className="text-[#23BE0A] bg-[#23BE0A0D] border rounded-full w-28">
+                        <p className="text-green-600 border rounded-full w-28">
                           #{book.tags[1]}
                         </p>
                         <p className="flex items-center">
                           <CiLocationOn></CiLocationOn>
-                          <span>
+                          <span className="flex">
                             Year of Publishing :{book.yearOfPublishing}
                           </span>
                         </p>
@@ -247,13 +247,13 @@ const ListedBooks = () => {
                       </h2>
                     </div>
                     <div className="p-4">
-                      <p className="border-t border-dashed  border-[#13131326]"></p>
+                      <p className="border-t border-dashed "></p>
                     </div>
                     <div className="lg:flex justify-around items-center ">
-                      <h2 className="text-[#328EFF] bg-[#328EFF26] border rounded-full w-[170px] text-base font-medium work_sens mb-2">
+                      <h2 className="text-blue-500 border rounded-full w-[170px] text-base font-medium work_sens mb-2">
                         category : {book.category}
                       </h2>
-                      <h2 className="text-[#FFAC33] bg-[#FFAC3326] border rounded-full w-[170px] text-base font-medium work_sens mb-2">
+                      <h2 className="text-orange-500 bg-[#FFAC3326] border rounded-full w-[170px] text-base font-medium work_sens mb-2">
                         Rating : {book.rating}
                       </h2>
                       <Link to={`/book/${book.id}`}>
